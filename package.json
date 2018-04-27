@@ -1,0 +1,40 @@
+{
+  "name": "pga-pubsub",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "coverage": "codecov",
+    "lint": "eslint lib/",
+    "test": "cross-env NODE_ENV=test nyc mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorWiseman/pga-pubsub.git"
+  },
+  "keywords": [
+    "postgresql"
+  ],
+  "author": "Connor Wiseman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConnorWiseman/pga-pubsub/issues"
+  },
+  "homepage": "https://github.com/ConnorWiseman/pga-pubsub#readme",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "dependencies": {
+    "pg": "^7.4.1",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "codecov": "^3.0.1",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1"
+  }
+}
