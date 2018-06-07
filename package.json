@@ -1,6 +1,6 @@
 {
   "name": "pga-pubsub",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Promise-based publisher-subscriber module based on PostgreSQL's LISTEN, NOTIFY, and UNLISTEN functionality.",
   "main": "lib/index.js",
   "scripts": {
